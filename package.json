@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon",
-  "build": "rimraf dist && tsc",
-  "start": "node -r tsconfig-paths/register dist/server.js"
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -26,7 +24,6 @@
     "prettier": "^3.6.2",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
-    "tsconfig-paths": "^4.2.0",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.2"
   },

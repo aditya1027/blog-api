@@ -15,6 +15,7 @@
             "src/*"
            ] 
         },
+        "outDir": "dist",
         "typeRoots":["./src/@types"]
     },
     "include":[

@@ -1,3 +1,4 @@
+import dotenv from 'dotenv';
 import express from 'express';
 import cors from 'cors';
 
@@ -8,13 +9,17 @@ import helmet from 'helmet';
 import type { CorsOptions } from 'cors';
 import limiter from '@/lib/epress_rate_limit';
 
+
 import v1Routes from '@/routes/v1';
 import { connectToDatabase, disconnectFromDatabase } from '@/lib/mongoose';
 
+
 import { logger } from '@/lib/winston';
+
 
 // Express app initial
 const app = express();
+
 
 //Configure CORS options
 const corsOptions: CorsOptions = {

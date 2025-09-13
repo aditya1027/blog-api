@@ -1,7 +1,7 @@
 {
     "compilerOptions":{
         "target":"ES6",
-        "module":"CommonJS",
+        "module":"commonjs",
         "rootDir":"src",
         "baseUrl":"./",
         "outDir":"dist",
@@ -11,9 +11,10 @@
         "strict":true,
         "skipLibCheck":true,
         "paths":{
-             "@/*": ["src/*"]
+           "@/*":[
+            "src/*"
+           ] 
         },
-        "outDir": "dist",
         "typeRoots":["./src/@types"]
     },
     "include":[

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "build": "rm -rf dist && tsc"
   },
   "keywords": [],
   "author": "",
